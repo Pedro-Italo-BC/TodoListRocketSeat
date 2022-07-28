@@ -1,0 +1,44 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 5.625rem;
+    gap: .5rem;
+    height: 52px;
+    width: 100%;
+    margin-top: -27px;
+}
+
+.container input{
+    background-color: var(--gray-500);
+    border: 1px solid var(--gray-700);
+
+    border-radius: 8px;
+    color: var(--gray-100);
+    padding: 1rem;
+
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 140%;
+}
+
+.container button{
+    background-color: var(--blue-dark);
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 140%;
+    color: var(--gray-100);
+    border-radius: 8px;
+
+    transition: filter .3s;
+}
+
+.container button:hover{
+    filter: brightness(1.2);
+    cursor: pointer;
+}
